@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bang Du</title>
+  <meta name="author" content="Bang Du">
+  <meta name="description" content="Bang Du — robot learning, world action models, dexterous manipulation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <!-- ============ Intro ============ -->
+    <header class="intro card">
+      <div class="intro-text">
+        <h1 class="name">Bang Du</h1>
+        <p>
+          Hi, I am Bang Du, an undergraduate student in Physics (minor in Electrical Engineering) at
+          <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology (SUSTech)</a>.
+          In 2026 I was a visiting undergraduate researcher at the
+          <a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a>, BAIR, UC Berkeley,
+          working with Prof. <a href="https://msc.berkeley.edu/people/tomizuka.html">Masayoshi Tomizuka</a>.
+          Before that, I worked on aerial navigation at the <a href="https://robotics-star.com/">STAR Lab</a>, SUSTech, with Prof. <a href="https://robotics-star.com/people.html">Boyu Zhou</a>.
+        </p>
+        <p>
+          My research focuses on <span class="chip blue">world action models (WAM)</span> and
+          <span class="chip amber">dexterous manipulation</span>, and
+          <strong>I am currently seeking PhD opportunities for Fall 2027.</strong>
+        </p>
+        <p class="links">
+          <!-- CV PDF 到位后加回: <a href="assets/Bang_Du_CV.pdf">CV</a> <span>/</span> -->
+          <a href="https://scholar.google.com/citations?user=oe9cSvkAAAAJ&amp;hl=en">Google Scholar</a> <span>/</span>
+          <a href="https://github.com/7mare">GitHub</a>
+        </p>
+        <p class="emails">
+          <a href="mailto:brookdu@berkeley.edu">brookdu@berkeley.edu</a> <span>·</span>
+          <a href="mailto:12312607@mail.sustech.edu.cn">12312607@mail.sustech.edu.cn</a>
+        </p>
+      </div>
+      <img class="avatar" src="assets/avatar.jpg" alt="Bang Du">
+    </header>
+
+    <!-- ============ Publications ============ -->
+    <section>
+      <h2>Publications</h2>
+      <p class="section-note">* equal contribution. Highlighted papers are ones I led.</p>
+
+      <article class="pub highlight">
+        <a class="thumb" href="https://arxiv.org/abs/2609.36413"><img src="assets/onefrominf.jpg" alt="One from Infinity teaser" loading="lazy"></a>
+        <div class="pub-body">
+          <a href="https://arxiv.org/abs/2609.36413" class="papertitle">One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions</a>
+          <p class="authors"><strong>Bang Du*</strong>, Yichen Xie*, Shuqi Zhao*, Yuxin Chen, Menglin Wu, Masayoshi Tomizuka</p>
+          <p class="venue"><span class="tag review">Under review</span> arXiv, 2026</p>
+          <p class="pub-links">
+            <a href="https://arxiv.org/abs/2609.36413">arXiv</a> /
+            <a href="https://arxiv.org/pdf/2609.36413">PDF</a> /
+            <a href="https://github.com/7mare/RoboActualizer">code</a>
+          </p>
+          <p class="tldr">RoboActualizer turns a frozen pretrained latent world model into a robot policy with a lightweight action module, instead of fine-tuning the heavy backbone.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="thumb"><div class="thumb-placeholder">Figure coming soon</div></div>
+        <div class="pub-body">
+          <span class="papertitle">From Human Videos to Bimanual Dexterous Manipulation Data: Confidence-Guided RL Refinement of Video Priors</span>
+          <p class="venue"><span class="tag review">Under review</span> 2026</p>
+          <p class="tldr">Reconstructs bimanual dexterous manipulation data from human-interaction videos and refines it with confidence-guided reinforcement learning.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="thumb" href="https://arxiv.org/abs/2609.21982"><img src="assets/carf.jpg" alt="CARF teaser" loading="lazy"></a>
+        <div class="pub-body">
+          <a href="https://arxiv.org/abs/2609.21982" class="papertitle">CARF: Contrastive Attraction-Repulsion of Failure-Guided Flow Matching</a>
+          <p class="authors">Shuqi Zhao, <strong>Bang Du</strong>, Cheng-En Wu, Yichen Xie, Yixiao Wang, Masayoshi Tomizuka</p>
+          <p class="venue"><span class="tag review">Under review</span> arXiv, 2026</p>
+          <p class="pub-links">
+            <a href="https://arxiv.org/abs/2609.21982">arXiv</a> /
+            <a href="https://arxiv.org/pdf/2609.21982">PDF</a>
+          </p>
+          <p class="tldr">Learns from failed demonstrations by attracting the flow-matching policy to progressive segments and repelling it from failure-critical ones.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="thumb" href="https://arxiv.org/abs/2601.12742"><img src="assets/airhunt.jpg" alt="AirHunt teaser" loading="lazy"></a>
+        <div class="pub-body">
+          <a href="https://arxiv.org/abs/2601.12742" class="papertitle">AirHunt: Bridging VLM Semantics and Continuous Planning for Efficient Aerial Object Navigation</a>
+          <p class="authors">Xuecheng Chen, Zongzhuo Liu, Jianfa Ma, <strong>Bang Du</strong>, Tiantian Zhang, Xueqian Wang, Boyu Zhou</p>
+          <p class="venue"><span class="tag accepted">RA-L</span> <em>IEEE Robotics and Automation Letters</em>, 2026</p>
+          <p class="pub-links">
+            <a href="https://arxiv.org/abs/2601.12742">arXiv</a> /
+            <a href="https://arxiv.org/pdf/2601.12742">PDF</a>
+          </p>
+          <p class="tldr">A drone system that finds open-set objects from language instructions by fusing asynchronous VLM reasoning with continuous path planning.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section>
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li class="berkeley">
+          <span class="when">Feb – Sep 2026</span>
+          <div><strong>MSC Lab, BAIR, UC Berkeley</strong> — Visiting Undergraduate Researcher<br>
+            <span class="muted">Advisor: Prof. Masayoshi Tomizuka</span></div>
+        </li>
+        <li class="berkeley">
+          <span class="when">Jan – May 2026</span>
+          <div><strong>UC Berkeley</strong> — Exchange Student, Berkeley International Study Program (BISP)</div>
+        </li>
+        <li class="sustech">
+          <span class="when">Feb – Sep 2025</span>
+          <div><strong>STAR Lab, SUSTech</strong> — Undergraduate Student Researcher<br>
+            <span class="muted">Advisor: Prof. Boyu Zhou</span></div>
+        </li>
+        <li class="sustech">
+          <span class="when">Sep 2023 – Present</span>
+          <div><strong>SUSTech</strong> — B.S. in Physics, Minor in Electrical Engineering (expected 2027)</div>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Last updated: October 2026 · Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a>'s website.</p>
+    </footer>
+  </main>
+</body>
+</html>
